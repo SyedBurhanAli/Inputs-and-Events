@@ -7,6 +7,95 @@
     <title>Document</title>
   </head>
   <body>
+    <canvas id="d1"></canvas>
+
+    <p>
+      <input type="button" value="make lime" onclick="dolime()" />
+
+      <input type="color" value="#001A57" onchange="docolor()" id="clr" />
+
+      <input
+        type="range"
+        min="10"
+        max="100"
+        value="10"
+        id="sldr"
+        oninput="dosquare()"
+      />
+
+      <input
+        type="range"
+        min="10"
+        max="100"
+        value="10"
+        id="sldrr"
+        oninput="dosquarre()"
+      />
+    </p>
+
+    <p>
+      <!-- HTML Input Types
+        Here are the different input types you can use in HTML:
+        
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        Tip: The default value of the type attribute is "text". -->
+    </p>
+
+    <p>
+      <!-- // parseInt
+        parseInt("10");//------------ 10
+        parseInt("10.00");//--------- 10
+        parseInt("10.33")//--------- 10
+        parseInt("34 45 66")//------ 34
+        parseInt("   60   ")//------ 60
+        parseInt("40 years")//------ 40
+        parseInt("He was 40")//----- NaN
+        parseInt("10", 10)//-------- 10
+        parseInt("010")//----------- 10
+        parseInt("10", 8)//--------- 8
+        parseInt("0x10")//---------- 16
+        parseInt("10", 16)//-------- 16
+
+        // parseFloat
+        parseFloat("10")//-----------10
+        parseFloat("10.00")//--------10
+        parseFloat("10.33")//--------10.33
+        parseFloat("34 45 66")//-----34
+        parseFloat(" 60 ")//---------60
+        parseFloat("40 years")//-----40
+        parseFloat("He was 40");//----NaN 
+    
+        Note: The parseInt() function parses a string and returns an integer.
+
+        Note: Only the first number in the string is returned!
+
+        Note: Leading and trailing spaces are allowed.
+
+        Note: If the first character cannot be converted to a number, parseInt() returns NaN.
+
+        Note Older Browsers can cause issues. visist w3schools.com for more-->
+    </p>
     <script src="./JS/main.js"></script>
   </body>
 </html>
