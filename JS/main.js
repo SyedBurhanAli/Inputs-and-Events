@@ -15,7 +15,7 @@ function docolor() {
 }
 
 function dosquare() {
-  //Get the canvas element
+  //Get the canvas element with id="d1"
   var dd3 = document.getElementById("d1"); //d1 is reference to canvas element
 
   //Get the slider element, then its value.
