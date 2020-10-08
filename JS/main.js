@@ -32,7 +32,7 @@ function dosquare() {
 function dosquarre() {
   //Get the slider element, then its value.
   var sliderinput2 = document.getElementById("sldrr");
-  var len = sliderinput2.value;
+  var len = sliderinput2.value;//use the value property of the DOM input element to get the value of user input (i.e slider).
 
   //Get the canvas element and context
   var canvas = document.getElementById("d1");
